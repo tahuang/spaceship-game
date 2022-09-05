@@ -10,13 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8278446282503000391}
   - component: {fileID: 7633728502354484378}
-  - component: {fileID: 591117944818895871}
-  - component: {fileID: -5499110803316676801}
   - component: {fileID: 5792769131033775264}
-  - component: {fileID: -6434170558721354455}
+  - component: {fileID: 7920633731272639740}
   m_Layer: 0
-  m_Name: Enemy 3
-  m_TagString: Untagged
+  m_Name: UFO
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,30 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &591117944818895871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7515698883854117068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d43f31cfc228ed4e89978965413d6bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-5499110803316676801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7515698883854117068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387c4c9eaa8e0964c928034a4fa7a54e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &5792769131033775264
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.3, y: 1.6}
   m_EdgeRadius: 0
---- !u!114 &-6434170558721354455
+--- !u!114 &7920633731272639740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +119,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7515698883854117068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e033be053d7a84ebcb84cea6c796d8, type: 3}
+  m_Script: {fileID: 11500000, guid: b9f092e7e5d587f4a8a23f65efc555df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  scoreValue: 15
